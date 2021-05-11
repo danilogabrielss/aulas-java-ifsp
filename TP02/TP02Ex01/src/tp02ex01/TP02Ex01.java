@@ -11,9 +11,9 @@ public class TP02Ex01 {
         Scanner t = new Scanner(System.in);
         int n1, n2, i;
 
-        System.out.print("Digite um numero:");
+        System.out.print("Digite um numero: ");
         n1 = t.nextInt();
-        System.out.print("Digite um numero:");
+        System.out.print("Digite um numero: ");
         n2 = t.nextInt();
         while (n2 < n1) {
             System.out.println("ERRO! O numero digitado tem que seer maior que o primeiro numero digitado!");
